@@ -16,8 +16,7 @@ Small business sites often look fine on a laptop and break on phones, bury the o
 
 ## Import into Grok Bot
 
-<!-- TEMPLATE_SHARE_LINK: paste the public Grok Bot template URL here once the bot has exported and the owner has confirmed the review card. -->
-_Template link pending owner confirmation._
+Copy this bot into your own Grok Bot: [website betterment template](https://x.ai/bot/6CBsINJvglOhUtvd9LkAG)
 
 ## Key files
 
