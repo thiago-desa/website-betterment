@@ -31,6 +31,12 @@ Copy this bot into your own Grok Bot: [website betterment template](https://x.ai
 | `examples/fictional-v2-redesign.md` | Fully fictional before/after review |
 | `ATTRIBUTION.md` | Design influences |
 | `LICENSE` | MIT |
+| `AGENTS.md` | Short agent instructions, boundaries, definition of done |
+| `CONTRIBUTING.md` | How to propose changes safely |
+| `docs/failure-modes.md` | Failure modes and troubleshooting |
+| `evals/` | Golden-set behavioral regressions |
+| `scripts/check.py` | Secrets/PII/em-dash/link hygiene checks |
+| `scripts/github-workflow-checks.yml` | GitHub Actions workflow (copy to `.github/workflows/checks.yml` when the token has `workflow` scope) |
 
 ## Proof-of-work notes
 
@@ -41,6 +47,10 @@ This repository is a cleaned public snapshot of a working website-upgrade bot:
 - Parallel v2 copies so the current site stays intact
 - Explicit "nothing goes live without owner go-ahead" rule
 - Fictional example only (no real firm names, emails, or team bios)
+
+## Review findings
+
+Portfolio review notes (repos and templates): [docs/review-2026-11-09.md in repo-operational-head](https://github.com/thiago-desa/repo-operational-head/blob/main/docs/review-2026-11-09.md).
 
 ## License and attribution
 
