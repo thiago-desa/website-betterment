@@ -1,0 +1,43 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Databases and local knowledge stores
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Real case data (never commit)
+issues/
+evidence/
+cases/
+case-data/
+*.case.json
+graph.live.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python / node leftovers
+__pycache__/
+node_modules/
+.venv/
+venv/
+
+# Archives that may contain private attachments
+*.docx
+*.pdf
